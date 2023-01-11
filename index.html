@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Amusement Park</title>
+</head>
+<body>
+  <div>
+    <h1>dating simulator 3000</h1>
+
+    <p>who can you date?  enter your age and gender and we'll tell you!</p>
+
+    <form id="userInfo">
+      <p id="error-message" class="hidden">Please enter an age and your gender</p>
+      <label for="age">Age</label>
+      <input id="age" type="text" name="age">
+      <label for="gender">Gender</label>
+      <input id="gender" type="text" name="gender">
+      <button type="submit">Show me who I can date!</button>
+    </form>
+
+    <div id="under18" class="hidden">
+      <h1>You're too young, sorry</h1>
+    </div>
+    <div id="35female" class="hidden">
+      <h1>denzel washington</h1>
+    </div>
+    <div id="35male" class="hidden">
+      <h1>salma hayek</h1>
+    </div>
+    <div id="18male" class="hidden">
+      <h1>zendaya</h1>
+    </div>
+    <div id="18female" class="hidden">
+      <h1>tom holland</h1>
+    </div>
+    <div id="error-message" class="hidden">
+      <h1>please enter your age and gender</h1>
+    </div>
+  </div>
+</body>
+</html>
